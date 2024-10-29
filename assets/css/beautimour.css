@@ -1,0 +1,37 @@
+/**
+ * EU Cookie law
+ */
+.cookie-law {
+	position: fixed;
+	z-index: 999999;
+	right: 0;
+	left: 0;
+	bottom: 0;
+	display: block;
+	padding: 0;
+	margin: 0;
+	color: #fff;
+	background: #000;
+	font-size: 18px;
+}
+
+.cookie-law .container {
+	padding-top: 35px;
+	padding-bottom: 35px;
+}
+
+.cookie-law p {
+	margin-bottom: 0;
+}
+
+.cookie-law .close-banner {
+	position: relative;
+	color: inherit;
+	float: right;
+	font-size: 21px;
+	line-height: 1;
+}
+
+.cookie-law .close-banner:hover {
+	color: inherit;
+}
